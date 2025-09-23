@@ -110,12 +110,21 @@ int main(){
         {
             int d= row+ col;
             int val;
+            if (d % 2 == 0) {
+                int i=row;
+                int j=col;
+                val=0;
+                for (int x= 0; x <=d; x++)
+                {
+                    int a=x;
+                    int b=d-x;
+                    if (a<n&&b<n)val++;
+                 
+                }
+                num+=val;
+                printf("%3d",num-val);
+                num-=(val-1);     
         }
-        
     }
-    if (d%2==0)
-    {
-        /* code */
-    }
-    
+}
 }
