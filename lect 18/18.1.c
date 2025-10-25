@@ -84,30 +84,4 @@ int main(){
         }
 
 }
-//take two array and print max value
-//transpose the matrix
-#include<stdio.h>
-int main(){
-  int arr[2][3]={{1,2,3},{4,5,6}};
-  int transpose=[3][2];
-  int i,j;
-  for (int i = 0; i < 2; i++)
-  {
-    for (int j = 0; j < 3; j++)
-    {
-      transpose[j][i]=arr[i][j];
-    }
-    
-  }
-  printf("transpose of matrix:\n");
-  for (int i = 0; i <3; i++)
-  {
-    for (int j = 0; i < 2; j++)
-    {
-      printf("%d",transpose[j][i]);
-    }
-    printf("\n");
-  }
-  return 0;
-}
 
