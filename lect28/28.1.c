@@ -69,6 +69,3 @@ int main(){
      int result=power(x,n);
      printf("%d",result);
 }
-
- 
-
